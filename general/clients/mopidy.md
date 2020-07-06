@@ -74,6 +74,8 @@ The config file for mopidy is divided into sections in an INI format. An example
 ```ini
 [jellyfin]
 hostname = Jellyfin server hostname
+# on a local network, in the jellyfin get the http port 
+# hostname = IP:port
 username = username
 password = password
 libraries = Library1, Library2 (Optional: will default to "Music" if left undefined)
